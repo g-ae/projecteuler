@@ -1,5 +1,4 @@
-import math
-import time
+import math, time
 
 def getTriangleIteration(num):
   # inverse function of (1/2) * n * (n+1)
@@ -14,7 +13,7 @@ if (__name__ == "__main__"):
   start_time = time.time()
 
   # Get word data on https://projecteuler.net/problem=42
-  data = open('042_words.txt').read().replace('"','').split(',')
+  data = open('042_input.txt').read().replace('"','').split(',')
 
   # Initialize out variable
   numOfTriangleWords = 0
